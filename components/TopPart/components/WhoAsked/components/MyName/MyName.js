@@ -6,15 +6,25 @@ import {
 export const MyName = ({ data }) => {
     const { name } = data;
     return (
-        <Text
-            fontFamily='Poppins'
-            fontStyle='normal'
-            fontWeight='600'
-            fontSize='18px'
-            lineHeight='27px'
-            ml='12px'
-        >
+        <p style={{ 
+            fontFamily: 'Poppins',
+            fontStyle: 'normal',
+            fontWeight: '600',
+            fontSize: '18px',
+            lineHeight: '27px',
+            marginLeft: '12px', 
+        }}>
             {name}
-        </Text>
+        </p>
+        // <Text
+        //     fontFamily='Poppins'
+        //     fontStyle='normal'
+        //     fontWeight='600'
+        //     fontSize='18px'
+        //     lineHeight='27px'
+        //     ml='12px'
+        // >
+        //     {name}
+        // </Text>
     )
 }
