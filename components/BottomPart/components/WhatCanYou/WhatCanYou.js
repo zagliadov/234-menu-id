@@ -11,6 +11,7 @@ export const WhatCanYou = () => {
             fontStyle: 'normal',
             fontWeight: '600',
             fontSize:'16px',
+            color: '#ffffff',
             lineHeight: '24px',
             marginTop: '12px',
         }}>
