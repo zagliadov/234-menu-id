@@ -11,6 +11,7 @@ export const BottomPart = ({children}) => {
             flexDir='column'
             padding='24px 24px 0px 24px'
             bgColor='BackgroundColor'
+            borderRadius='0px 0px 10px 10px '
         >
             {children}
         </Flex>

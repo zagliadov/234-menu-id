@@ -14,6 +14,7 @@ export const TopPart = ({ children }) => {
             w='640px'
             h='332px'
             bgColor='BackgroundColor'
+            borderRadius='10px 10px 0px 0px '
         >
             {children}
         </Flex>
