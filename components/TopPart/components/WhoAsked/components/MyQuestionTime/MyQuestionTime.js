@@ -11,9 +11,9 @@ export const MyQuestionTime = ({ data }) => {
             fontFamily='Poppins'
             fontStyle='normal'
             fontWeight='normal'
-            fontSize='12px'
+            fontSize='11px'
             lineHeight='18px'
-            opacity='0.5'
+            opacity='0.7'
             ml='12px'
         >
             {data.questionTime}h ago

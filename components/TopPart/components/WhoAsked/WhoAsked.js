@@ -26,7 +26,6 @@ export const WhoAsked = () => {
             justifyContent='space-between'
             alignItems='center'
             bgColor='BackgroundColor'
-            borderRadius='100px'
         >
             <UserWrapperButtonNameAvatar>
                 <MyButton />
