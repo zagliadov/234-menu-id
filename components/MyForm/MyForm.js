@@ -1,9 +1,9 @@
-import { WhoAsked } from '../TopPart/components/WhoAsked/WhoAsked';
-import { MyQuestion } from '../TopPart/components/MyQuestion/MyQuestion';
+import { FormHeaderWrapperTopPart } from '../TopPart/components/FormHeaderWrapperTopPart/FormHeaderWrapperTopPart';
+import { TextQuestionTopPart } from '../TopPart/components/TextQuestionTopPart/TextQuestionTopPart';
 import { TopPart } from '../TopPart/TopPart';
 import { BottomPart } from '../BottomPart/BottomPart';
-import { WhatCanYou } from '../BottomPart/components/WhatCanYou/WhatCanYou';
-import { InputHowCanYouHelp } from '../BottomPart/components/InputHowCanYouHelp/InputHowCanYouHelp';
+import { TitleBottomPart } from '../BottomPart/components/TitleBottomPart/TitileBottomPart';
+import { InputGroupBottomPart } from '../BottomPart/components/InputGroupBottomPart/InputGroupBottomPart';
 import {
     Flex,
 } from '@chakra-ui/react';
@@ -21,12 +21,12 @@ export const MyForm = () => {
             mb='273px'
         >
             <TopPart>
-                <WhoAsked />
-                <MyQuestion />
+                <FormHeaderWrapperTopPart />
+                <TextQuestionTopPart />
             </TopPart>
             <BottomPart>
-                <WhatCanYou />
-                <InputHowCanYouHelp />
+                <TitleBottomPart />
+                <InputGroupBottomPart />
             </BottomPart>
 
         </Flex>
